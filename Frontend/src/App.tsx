@@ -32,7 +32,7 @@ const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
 
-const BASE_URL = import.meta.env.VITE_MODE === "development" ? "http://localhost:3001/api" : "/api";
+const BASE_URL = import.meta.env.VITE_MODE === "development" ? "http://localhost:3001/api" : "https://movieapp-mm9y.onrender.com/api";
 
 const API_OPTIONS = {
 	method: "GET",
