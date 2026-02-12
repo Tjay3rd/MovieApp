@@ -8,9 +8,7 @@ const app = express();
 
 dotenv.config();
 
-if (process.env.NODE_ENV !== "production") {
-	app.use(cors({ origin: "http://localhost:5173", credentials: true }));
-}
+app.use(cors({ origin: "https://movie-app-nine.vercel.app", credentials: true }));
 app.use(express.json());
 app.use("/api/movies", movieRoute);
 
