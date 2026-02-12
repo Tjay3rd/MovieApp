@@ -1,0 +1,32 @@
+{
+	"name": "expresso",
+	"version": "1.0.0",
+	"main": "src/server.js",
+	"type": "module",
+	"scripts": {
+		"start": "node src/server.js",
+		"dev": "nodemon src/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@upstash/ratelimit": "^2.0.6",
+		"@upstash/redis": "^1.35.5",
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"express-session": "^1.18.2",
+		"express-validator": "^7.2.1",
+		"mongoose": "^8.18.0",
+		"passport": "^0.7.0",
+		"passport-local": "^1.0.0",
+		"thinkboard": "file:.."
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.19",
+		"nodemon": "^3.1.10"
+	}
+}
